@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(banner1.jpg);
+    background-size: cover;
+    background-postion: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*----------------NAVBAR------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #ffce14;
+    background: #0f2453;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "roboto";
+    margin: 0 2rem;
+}
+
+header div i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+header nav {
+    padding: 1rem 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+nav li a {
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in;
+}
+
+nav li a:hover {
+    background: #ffce14;
+    color: black;
+}
+
+.login-btn {
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+}
+
+
+/*-------------TOP SECTION-------------*/
+
+.titles {
+    color: white;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.titles h1 {
+    font-family: "roboto";
+    font-size: 5rem;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 0 black;
+    color: #ffce14;
+}
+
+.titles p {
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0 black;
+}
+
+.header h1 {
+    padding-top: 110px;
+    padding-bottom: 0;
+    float: center;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px 0;
+}
+
+.input-group {
+    width: 90%;
+    max-width: 300px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 4px;
+}
+
+.form-control {
+    border: 0 !important;
+    border-radius: 30px!important;
+    margin: 4px;
+    box-shadow: none !important;
+}
+
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0 !important;
+    padding: 0 25px;
+    border-radius: 30px!important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+
+/*features*/
+
+.features {
+    padding: 100px 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img {
+    width: 300px;
+}
+
+.price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.price p {
+    text-align: center;
+    padding: 10px;
+}
+
+.feature-img {
+    position: relative;
+}
+
+.rating {
+    padding: 3px;
+    float: left;
+    background-color: #fff;
+    bottom: -1px;
+    right: 941;
+    position: absolute;
+}
+
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.feature-details p {
+    text-align: justify;
+}
+
+.feature-details .bi {
+    margin-right: 5px;
+}
+
+.feature-box {
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 30px;
+}
+
+.gallery {
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-box h4 {
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner {
+    height: 80%;
+    background-image: url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights {
+    padding: 70px 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.booking-btn {
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.users-feedback {
+    padding: 100px 0;
+}
+
+.users-review {
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+
+.users-review p {
+    padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+.footer {
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d, #9610fd);
+    color: #fff;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .row .bi {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.fa-heart {
+    margin: 0 5px;
+    color: #f44336;
+}
+
+.footer .copyright {
+    text-align: center;
+}

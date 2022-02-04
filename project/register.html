@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title> Registration Form </title>
+</head>
+
+<body bgcolor="DodgerBlue">
+    <p>
+        <h1 align="center">Registration</h1>
+    </p>
+    <table align="center" bgcolor="LightGray">
+        <form id="form1">
+            <tr>
+                <td> Name*:- </td>
+                <td> <input type="Name" placeholder="Name"> </td>
+            </tr>
+            <tr>
+                <td> Email* :- </td>
+                <td> <input type="mail" placeholder="Email"> </td>
+            </tr>
+            <tr>
+                <td>Gender*:-</td>
+                <td> <input type="radio" id="male" value="male" name="gender">   <label for="male">Male</label>   <input type="radio" id="female" value="female" name="gender">   <label for="female">Female</label><br>
+                    <input type="radio" id="Other" value="Other" name="gender">   <label for="Other">Other</label><br></td>
+            </tr>
+            <tr>
+                <td>Password*:-</td>
+                <td><input type="password" placeholder="Enter password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password*:-</td>
+                <td><input type="password" placeholder="Confirm password"></td>
+            </tr>
+            <tr>
+                <td>Phone No:</td>
+                <td><input type="numbers" name="conatct" maxlength="10" placeholder="conatct no"></td>
+            </tr>
+            <tr>
+                <td> Subscription:-</td>
+                <td>
+                    <select>
+                        <option> Select </option>
+                        <option> Free </option>
+                        <option> Premium</option>
+                        <option> Monthly</option>
+                        <option> Prine</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+
+                <td> Type of trips:-</td>
+                <td>
+                    <input type="checkbox" id="ABROAD" value=" A TRIP ABROAD">
+                    <label for="A TRIP ABROAD"> A TRIP ABROAD</label><br>
+                    <input type="checkbox" id=" TRIP TO THE BEACH" value=" TRIP TO THE BEACH">
+                    <label for=" TRIP TO THE BEACH">  TRIP TO THE BEACH</label><br>
+                    <input type="checkbox" id="GROUP TOUR" value="GROUP TOUR">
+                    <label for="GROUP TOUR"> GROUP TOUR</label>
+                </td>
+
+            </tr>
+        </form>
+        <td></td>
+        <td>
+            <button type="submit" form="form1" value="Submit">Submit</button>
+            <input type="reset" form="form1" value="Reset">
+        </td>
+    </table>
+</body>
+
+</html>
